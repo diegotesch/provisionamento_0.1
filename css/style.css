@@ -1,0 +1,99 @@
+.container-fluid{
+    padding: 0;
+}
+
+*{margin: 0;padding: 0;}
+
+@font-face{font-family: "Geomancy Bold"; src: url("fontes/Geomancy - Extra Bold.otf") format("truetype");}
+@font-face{font-family: "Dalmais"; src: url("fontes/Dalmais.otf") format("truetype");}
+
+.header h1{margin-top: 40px; font-family: "Geomancy Bold" !important; color: #2f9892;}
+
+.conteudo{margin-top: 50px; margin-bottom: 50px;}
+
+.dash{margin-top: 50px; margin-bottom: 50px;}
+.dash .linkDash a p{text-align: center; color: #000; font-weight: bold; font-size: 1.3em; margin-top: 20px; font-family: "Trebuchet MS";}
+.dash .linkDash a:hover p{color: #F00;}
+.dash .linkDash a:hover{text-decoration: none;}
+
+.contorno{height: 100%; width: 100%; background: #000; position: fixed; z-index: 999; top: 0; left: 0; opacity: 0.3;}
+#modalConfirm{border: 5px solid #2f9892; border-radius: 10px; position: fixed; z-index: 1000; top: 10%; background: #FFF;}
+#modalConfirm h3{font-family: "Geomancy Bold" !important; color: #2f9892; text-align: center;}
+#modalConfirm .cadInfo{text-align: center; font-family: "Trebuchet MS"; font-size: 1.2em;}
+#modalConfirm span.onu{color: #e86936; font-weight: bold; text-decoration: underline; display: inline-block;}
+
+.lote{border: 2px solid #57585a; border-radius: 5px; padding: 10px; background: #FFF; text-decoration: none !important; cursor: pointer;}
+.lote p.loteDesc{text-align: center; font-family: "Trebuchet MS"; font-size: 1.2em; margin-top: 5px; color: #57585a;}
+.lote p.loteDesc span.loteNumber{font-weight: bold; color: #F00; border-bottom: 1px solid #F00;}
+.lote p.loteData{text-align: center;font-family: "Trebuchet MS"; font-size: 0.9em; color: #e9753c;}
+.loteLine{margin-bottom: 10px;}
+
+.titulo{font-family: "Trebuchet MS" !important; color: #e9753c; text-align: center;}
+.listOnuLote thead th{background: #e9753c; color: #FFF; font-weight: bold; text-align: center;}
+.listOnuLote tbody td{text-align: center; font-family: "Trebuchet MS" !important;}
+
+#ativaOnu input[type="submit"].botao{font-size: 1.5em; font-family: "Geomancy Bold"; border-collapse: separate;}
+
+.footer{background: #2f9892; width: 100%; color: #FFF; height: 50px;}
+.footer p{text-align: right; margin-right: 20px; font-size: 1.2em;}
+.footer span#me{font-weight: bold;}
+
+.boxList{
+    height: 350px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.mcsSel{
+    height: 460px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.negrito{font-weight: bold;}
+
+/*GERAIS*/
+    /*BOTAO*/
+    .botao{background-color: #2f9892; color: #FFF; border-radius: 3px; display: inline-block;padding-bottom: 5px;padding-top: 15px;padding-left: 10px; padding-right: 10px; cursor: pointer; transition: 0.5s linear;}
+    .botao .icone img{width: 30px;height: 30px;position: relative;top: -5px;}
+    .botao .texto{font-size: 1.5em; font-family: "Geomancy Bold";}  
+    .botao:hover{background-color: #e86936; text-decoration: none !important; color: #FFF !important;}
+    
+    .botao#btCancelar{border-radius: 90px; padding-top: 7px; padding-bottom: 5px; z-index: 300; position: fixed; top: 28%; right: 35px;}
+    /*FIM BOTAO*/
+    
+    /*ERROR*/
+    .error{background: rgb(254, 194, 194); color: #F00; border-radius: 5px; margin-top: 10px; margin-bottom: 10px; padding: 5px;}
+    /*FIM ERROR*/
+
+    /*LINHA HR*/
+    hr.linha{height: 10px; border: 0; box-shadow: 0 10px 10px -10px #8c8b8b inset;}
+    /*FIM LINHA HR*/
+    
+    .paliativoInput{
+        color: rgba(0,0,0,0.87) !important;
+        border-color: rgba(0,0,0,0.12) !important;
+        -webkit-box-ordinal-group: 3 !important;
+        -webkit-order: 2 !important;
+        order: 2 !important;
+        display: block !important;
+        margin-top: 0 !important;
+        background: none !important;
+        padding: 2px 2px 1px !important;
+        border-width: 0 0 1px !important;
+        line-height: 26px !important;
+        height: 30px !important;
+        -ms-flex-preferred-size: 26px !important;
+        border-radius: 0 !important;
+        border-style: solid !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        float: left !important;
+    }
+    
+    .noOverflow{
+        overflow: hidden !important;
+    }
+/*FIM GERAIS*/
