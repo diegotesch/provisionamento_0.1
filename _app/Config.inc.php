@@ -8,13 +8,13 @@ define('HOME', 'http://localhost/provissionamento/');
 
 //CONFIGURACOES DO SITE ####################
 define('HOST', 'localhost');
-define('USER', 'provisionamento');
-define('PASS', 'sSYnrHEnc3K8vbh3'); //senha para site sSYnrHEnc3K8vbh3
-define('DB', 'provisionamento');//bd site provisionamento
+define('USER', 'userdb');
+define('PASS', 'senhadb'); 
+define('DB', 'nomedb');
 
-define('VIAON_HOST', '177.101.80.55');
-define('VIAON_USER', 'cliente_r');
-define('VIAON_PASS', 'Cl13nt_R'); 
+define('VIAON_HOST', 'xxx.xxx.xxx.xxx');
+define('VIAON_USER', 'cliente');
+define('VIAON_PASS', 'pass'); 
 define('VIAON_DB', 'mkData');
 
 //AUTOLOAD DE CLASSS #######################
